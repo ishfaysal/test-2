@@ -1,0 +1,96 @@
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+/* header sections */
+.header{
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 500px;
+    padding: 600px;
+}
+.banner{
+    display: flex;
+    display: grid;
+    
+    text-align: center;
+  
+    
+}
+.banner-subtitle{
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+.btn-primary{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    height: 50px;
+    border: 0;
+    border-radius: 7px;
+    background: #FF900E;
+    margin-bottom: 10px;
+    padding: 18px 35px;
+
+}
+/* main sections */
+.features{
+    display: flex;
+    margin: 100px;
+    
+
+}
+.team-photo{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.team-info{
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 70px;
+}
+/* advertisement sections */
+.ad{
+    display: grid;
+    align-items: left; 
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.ad-header{
+    font-size: 25px;
+
+}
+/* facts container */
+.facts{
+    text-align: center;
+    padding: 15px 40px 15px;
+    border-radius: 5px;
+    border:2px solid tomato;
+
+}
+.container{
+    text-align: left;
+    font-size: 30px;
+}
+.facts-container{
+    display: flex;
+    justify-content: space-between;
+   
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 200px;
+    gap: 40px;
+    
+}
+.facts-title{
+
+}
+/* footer sections */
