@@ -1,17 +1,24 @@
 font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 /* header sections */
-.header{
+nav{}
+nav ul{
     display: flex;
-    
+    list-style: none;
+    text-decoration: none;
+    float: right;
+    gap: 34px;
+    margin-bottom: 50px;
+}  
+.header{
+
     justify-content: space-between;
-    margin: 500px;
-    padding: 600px;
+   
 }
 .banner{
     display: flex;
     display: grid;
-    
+    width: 100%;
     text-align: center;
   
     
@@ -26,6 +33,9 @@ font-family: 'Poppins', sans-serif;
     font-size: 18px;
     margin-bottom: 20px;
 
+}
+.team-photo{
+    width: 100%;
 }
 .btn-primary{
     color: white;
@@ -43,14 +53,18 @@ font-family: 'Poppins', sans-serif;
 .features{
     display: flex;
     margin: 100px;
+    width: 100%;
     
 
+}
+.block{
+    width: 100%;
 }
 .team-photo{
     
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 15px;
 }
 .team-info{
     text-align: left;
@@ -58,15 +72,76 @@ font-family: 'Poppins', sans-serif;
     margin-left: 70px;
 }
 /* advertisement sections */
-.ad{
-    display: grid;
-    align-items: left; 
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.ad-header{
-    font-size: 25px;
+.ad-area{
+    display: flex;
+    align-items: center;
+    gap:50px;
+    margin: 50px 200px;
+   }
+   .ad-item{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap:20px;
+   }
+   .ad-item img{
+       width: 100%;
+   }
+   .features-info h1{
+       color:darkgray;
+       font-size: 30px;
+       font-weight: 700;
+   }
+   .ad-info span{
+       color:black;
+       margin-left: 5px;
+       font-size: 30px;
+       font-weight: 700;
+   }
+   .ad-info h2{
+       color:darkorange;
+       font-size: 30px;
+       font-weight: 700;
+   }
+   .enjoy-area{
+       display:flex;
+       margin: 50px 200px;
+       gap:40px;
+       align-items: center;
+       
+     
+   }
+   .ad-item{
+        box-shadow: 10px 10px 15px #aaaaaa; 
+        padding:10px 20px;
+        margin-top: 10px;
+       
+     
+   }
+   .ad-title h2{
+       border-left: 3px solid darkorange ;
+       padding-left: 5px;
+       padding-right: 40px;
+   }
+   .ad-img img{
+       
+       height: 800px;
+   }
+   .ad-btn{
+       
+       background-color: darkorange;
+       margin: 5px 200px;
+       text-align: center;
+       padding: 20px 10px;
+       font-size: 30px;
+       font-weight: 700;
+       border-radius: 7px;
+       border: 0;
+       justify-content: space-around;
+       
+       
+   }
+  
 
-}
 /* facts container */
 .facts{
     text-align: center;
@@ -93,4 +168,43 @@ font-family: 'Poppins', sans-serif;
 .facts-title{
 
 }
+.btn-secondary{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    height: 10px;
+    border: 0;
+    border-radius: 7px;
+    background: #FF900E;
+    margin-bottom: 10px;
+    padding: 18px 35px;
+
+}
 /* footer sections */
+.sponsor{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+.sp-subtitle{
+    text-align: center;
+}
+.sp-logo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 20px;
+   
+    
+}
+.copyright{
+    border-radius: 7px;
+    text-align: center;
+    background: #FFF4E7;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
